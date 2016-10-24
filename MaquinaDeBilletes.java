@@ -17,6 +17,7 @@ public class MaquinaDeBilletes
     private int balance;
     // The total amount of money collected by this machine.
     private int total;
+    private int TrainStation;
 
     /**
      * Create a machine that issues tickets of the given price.
@@ -42,7 +43,7 @@ public class MaquinaDeBilletes
      * Return the amount of money already inserted for the
      * next ticket.
      */
-    public int obtenerBalance()
+    public int obteBalance()
     {
         return balance;
     }
@@ -75,4 +76,16 @@ public class MaquinaDeBilletes
         // Clear the balance.
         balance = 0;
     }
+    
+    public int getTotal()
+    {
+        return total;
+    }
+    public void setPrecio(int coste)
+    {
+        precio = coste;
+    }
 }
+
+
+
