@@ -89,6 +89,10 @@ public class MaquinaDeBilletes
     {
         System.out.println("Por favor, inserte la cantidad correcta de dinero.");
     }
+    public void mostrarPrecio()
+    {
+        System.out.println("El precio de un billete es " + precio + " euros.");
+    }
 }
 
 
