@@ -18,8 +18,8 @@ public class EstacionDeTren
     public EstacionDeTren()
     {
         // initialise instance variables
-        maquina1 = new MaquinaDeBilletes(300);
-        maquina2 = new MaquinaDeBilletes(200);
+        maquina1 = new MaquinaDeBilletes();
+        maquina2 = new MaquinaDeBilletes();
         dineroTotal = 0;
         
     }
