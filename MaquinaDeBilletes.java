@@ -30,8 +30,12 @@ public class MaquinaDeBilletes
         balance = 0;
         total = 0;
     }
-
-
+    public MaquinaDeBilletes(int coste)
+    {
+        precio = coste;
+        balance = 0;
+        total = 0;
+    }
     /**
      * Devuelve el precio del billete.
      */
