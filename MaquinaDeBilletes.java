@@ -26,7 +26,7 @@ public class MaquinaDeBilletes
      */
     public MaquinaDeBilletes(int coste)
     {
-        precio = coste;
+        precio = 800;
         balance = 0;
         total = 0;
     }
