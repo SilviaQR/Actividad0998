@@ -43,7 +43,7 @@ public class MaquinaDeBilletes
      * Return the amount of money already inserted for the
      * next ticket.
      */
-    public int obteBalance()
+    public int obtenerBalance()
     {
         return balance;
     }
@@ -84,6 +84,10 @@ public class MaquinaDeBilletes
     public void setPrecio(int coste)
     {
         precio = coste;
+    }
+    public void rapido()
+    {
+        System.out.println("Por favor, inserte la cantidad correcta de dinero.");
     }
 }
 
