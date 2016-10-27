@@ -24,12 +24,13 @@ public class MaquinaDeBilletes
      * Note that the price must be greater than zero, and there
      * are no checks to ensure this.
      */
-    public MaquinaDeBilletes(int coste)
+    public MaquinaDeBilletes()
     {
         precio = 800;
         balance = 0;
         total = 0;
     }
+
 
     /**
      * Devuelve el precio del billete.
